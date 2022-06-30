@@ -1,0 +1,104 @@
+:root {
+  --color-blue-manuel: rgb(45, 78, 154);
+}
+
+section {
+    padding: 5rem 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+td a {
+  font-weight: bold;
+}
+
+/* width */
+::-webkit-scrollbar {
+    height: 5px;
+    width: 5px;
+  }
+  
+/* Track */
+::-webkit-scrollbar-track {
+background: #eee; 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+background: orange; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+background: orange; 
+}
+
+th:nth-child(13), td:nth-child(13) {
+  position: absolute;
+  right: 210px;
+}
+
+th:nth-child(14), td:nth-child(14) {
+  position: absolute;
+  right: 152px;
+}
+
+.list-group a {
+  padding: 20px;
+  transition: all .3s;
+  font-weight: bold;
+  color: var(--color-blue-manuel);
+}
+
+.font-24px {
+  font-size: 24px !important;
+  color: var(--color-blue-manuel);
+  transition: color .3s;
+}
+
+.list-group a:hover {
+  background-color: var(--color-blue-manuel);
+  color: white;
+}
+
+.list-group a:hover i {
+  color: white;
+}
+
+th:nth-child(2), td:nth-child(2) {
+  min-width: 150px;
+}
+
+th:nth-child(3), td:nth-child(3) {
+  min-width: 280px !important;
+}
+
+th:nth-child(7), td:nth-child(7) {
+  min-width: 200px !important;
+}
+
+th:nth-child(8), td:nth-child(8) {
+  min-width: 340px !important;
+}
+
+th:nth-child(10), td:nth-child(10) {
+  min-width: 170px !important;
+}
+
+th:nth-child(11), td:nth-child(11) {
+  min-width: 270px !important;
+}
+
+.table tr td {
+  height: 100px !important;
+}
+
+.form-control:focus{
+  outline: none;
+  box-shadow: none;
+}
+.form-control{
+  margin-top: 6px;
+}
